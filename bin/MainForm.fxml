@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<DialogPane xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <content>
+      <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="218.0" prefWidth="491.0">
+         <children>
+            <Button fx:id="SandwichOrderBtn1" layoutX="95.0" layoutY="97.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="134.0" text="Sandwich Order">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="IceCreamOrderBtn1" layoutX="280.0" layoutY="97.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="134.0" text="Ice Cream Order">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </content>
+</DialogPane>
